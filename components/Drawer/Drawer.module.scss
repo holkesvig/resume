@@ -1,0 +1,24 @@
+/* Symbols */
+@import "/styles/symbols/_colors.scss";
+
+.navDrawer {
+  background: black;
+}
+
+.navItem {
+  font-family: "Monsterrat";
+  font-weight: 400;
+  color: white;
+  font-size: 0.75rem;
+  letter-spacing: 2px;
+}
+
+.navIcon {
+  color: white;
+  margin-bottom: 30px;
+
+  &:hover {
+    color: $color-accent;
+    background: none;
+  }
+}
