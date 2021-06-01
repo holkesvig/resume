@@ -13,10 +13,10 @@ function MyApp({ Component, pageProps }) {
     <StylesProvider injectFirst>
       <Component {...pageProps}>
         <Head>
-          <title>Happy Horti</title>
+          <title>Melissa Nelson</title>
           <meta
-            name="description"
-            content="A blog about houseplants and horticulture."
+            name="Melissa Nelson's Personal Website"
+            content="Melissa Nelson's Personal Website"
           />
           <link rel="icon" href="/favicon.ico" />
         </Head>

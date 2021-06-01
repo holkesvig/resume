@@ -8,7 +8,6 @@ export default function Home() {
 
       <Layout>
         <Head>
-          <title>Melissa Nelson</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
 
