@@ -59,7 +59,7 @@
     left: 0;
     top: 0;
     height: 72px;
-    background: pink;
+    background: none;
     letter-spacing: 10px;
     font-weight: 600;
     font-size: 50px;
@@ -68,9 +68,7 @@
     padding: 20px;
 
     .navigation {
-      width: 95vw;
-      max-width: 90%;
-      background: purple;
+      width: 96vw;
       display: flex;
       justify-content: flex-end;
       margin: 0 auto;
