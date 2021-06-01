@@ -6,7 +6,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: white;
+    background: #fefbfa;
 
     .homeSection {
       width: 100vw;
@@ -26,9 +26,8 @@
       align-items: center;
       position: relative;
       text-align: center;
-      background: pink;
+      background: #fcf7f5;
     }
-
     .experienceSection {
       width: 100vw;
       height: 100vh;
@@ -37,7 +36,7 @@
       align-items: center;
       position: relative;
       text-align: center;
-      background: lightblue;
+      background: #f9efeb;
     }
 
     .downloadSection {
@@ -48,7 +47,7 @@
       align-items: center;
       position: relative;
       text-align: center;
-      background: grey;
+      background: #f2ded6;
     }
   }
 
@@ -67,6 +66,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #e4bcac;
   }
 
   .title {
