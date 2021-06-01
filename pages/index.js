@@ -12,12 +12,12 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.homeSection}>
             <h1 className={styles.title}>
-              Melissa Nelson
+              Melissa Nelson Home
             </h1>
         </div>
           <div className={styles.coreValuesSection}>
               <h1 className={styles.title}>
-                  Melissa Nelson
+                  Melissa Nelson Core Values
               </h1>
           </div>
       </main>
