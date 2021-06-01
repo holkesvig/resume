@@ -7,8 +7,6 @@ import ListItemText from '@material-ui/core/ListItemText';
 import MenuIcon from '@material-ui/icons/Menu';
 import { IconButton } from '@material-ui/core';
 import Link from 'next/link'
-
-
 import styles from './Drawer.module.scss'
 
 
@@ -49,28 +47,6 @@ export default function NavDrawer() {
                     </ListItem>
                 </List>
             </Link>
-            <Link href='/travel'>
-                <List>
-                    <ListItem className={styles.navItem} button key='Blog'>
-                        <ListItemText primary='Blog' />
-                    </ListItem>
-                </List>
-            </Link>
-            <Link href='/registry'>
-                <List>
-                    <ListItem className={styles.navItem} button key='Shop'>
-                        <ListItemText primary='Shop' />
-                    </ListItem>
-                </List>
-            </Link>
-            <Link href='/faq'>
-                <List>
-                    <ListItem className={styles.navItem} button key='FAQ'>
-                        <ListItemText primary='FAQ' />
-                    </ListItem>
-                </List>
-            </Link>
-
         </div>
     );
 

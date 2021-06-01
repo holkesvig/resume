@@ -9,7 +9,7 @@
 
   .homeSection {
     width: 100vw;
-    height: calc(100vh - 28px);
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,6 +27,28 @@
     position: relative;
     text-align: center;
     background: pink;
+  }
+
+  .experienceSection {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    background: lightblue;
+  }
+
+  .downloadSection {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    background: grey;
   }
 }
 
