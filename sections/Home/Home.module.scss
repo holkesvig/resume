@@ -1,0 +1,48 @@
+@media only screen and (min-width: 250px) {
+  .home {
+    width: 98vw;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 20px;
+
+    .leftContent {
+      width: 90vw;
+
+      .self-portrait {
+        align-self: flex-end;
+      }
+    }
+
+    .rightContent {
+      width: 90vw;
+
+      h1 {
+        margin: 0;
+      }
+    }
+  }
+}
+
+.home {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px;
+
+  .leftContent {
+    width: 43vw;
+
+    .selfPortrait {
+      width: 100%;
+      min-width: 550px;
+    }
+  }
+
+  .rightContent {
+    width: 43vw;
+    height: 50vh;
+  }
+}

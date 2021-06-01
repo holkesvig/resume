@@ -1,8 +1,10 @@
 import Head from 'next/head'
-import styles from './home.module.scss'
+import styles from './index.module.scss'
 import Layout from '../components/Layout/Layout'
 
-export default function Home() {
+import Home from '../sections/Home/Home'
+
+export default function Index() {
   return (
     <div className={styles.index}>
 
@@ -14,9 +16,7 @@ export default function Home() {
         <main className={styles.main}>
 
           <div className={styles.homeSection} id="home">
-              <h1 className={styles.title}>
-                  Melissa Nelson Home
-              </h1>
+              <Home></Home>
           </div>
             <div className={styles.coreValuesSection} id="values">
                 <h1 className={styles.title}>
