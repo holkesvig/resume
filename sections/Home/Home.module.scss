@@ -18,6 +18,19 @@
         left: 0;
       }
     }
+
+    .rightContent {
+      .bottom {
+        .socialButton {
+          margin: 10px;
+
+          .socialIcon {
+            width: 30px;
+            height: 30px;
+          }
+        }
+      }
+    }
   }
 }
 
@@ -60,11 +73,6 @@
 
         .socialButton {
           margin: 10px;
-
-          .socialIcon {
-            width: 30px;
-            height: 30px;
-          }
         }
       }
     }
