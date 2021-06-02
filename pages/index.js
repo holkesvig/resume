@@ -23,6 +23,11 @@ export default function Index() {
                     Melissa Nelson Core Values
                 </h1>
             </div>
+            <div className={styles.skillsSection} id="skills">
+                <h1 className={styles.title}>
+                    Melissa Nelson Experience
+                </h1>
+            </div>
             <div className={styles.experienceSection} id="experience">
                 <h1 className={styles.title}>
                     Melissa Nelson Experience

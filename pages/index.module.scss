@@ -27,6 +27,18 @@
       text-align: center;
       background: #fcf7f5;
     }
+
+    .coreValuesSection {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      text-align: center;
+      background: #fcf7f5;
+    }
+
     .experienceSection {
       width: 100vw;
       height: 100vh;
@@ -51,7 +63,6 @@
   }
 
   .main {
-    //padding: 5rem 0;
     flex: 1;
     display: flex;
     flex-direction: column;
