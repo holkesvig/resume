@@ -6,6 +6,7 @@ import Home from '../sections/Home/Home'
 import Core from '../sections/Core/Core'
 import Skills from '../sections/Skills/Skills'
 import Experience from '../sections/Experience/Experience'
+import Work from '../sections/Work/Work'
 
 export default function Index() {
   return (
@@ -28,9 +29,7 @@ export default function Index() {
                 <Experience />
             </div>
             <div className={styles.workSection} id="work">
-                <h1 className={styles.title}>
-                    Melissa Nelson Work
-                </h1>
+                <Work />
             </div>
             <div className={styles.footer}><p>2021</p></div>
         </main>
