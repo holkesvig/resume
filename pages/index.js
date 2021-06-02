@@ -3,6 +3,7 @@ import styles from './index.module.scss'
 import Layout from '../components/Layout/Layout'
 
 import Home from '../sections/Home/Home'
+import Experience from '../sections/Experience/Experience'
 
 export default function Index() {
   return (
@@ -13,7 +14,7 @@ export default function Index() {
         </Head>
         <main className={styles.main}>
           <div className={styles.homeSection} id="home">
-              <Home></Home>
+              <Home />
           </div>
             <div className={styles.coreValuesSection} id="values">
                 <h1 className={styles.title}>
@@ -26,9 +27,7 @@ export default function Index() {
                 </h1>
             </div>
             <div className={styles.experienceSection} id="experience">
-                <h1 className={styles.title}>
-                    Melissa Nelson Experience
-                </h1>
+                <Experience />
             </div>
             <div className={styles.workSection} id="work">
                 <h1 className={styles.title}>
