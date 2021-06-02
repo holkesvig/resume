@@ -3,7 +3,7 @@ import styles from './Work.module.scss'
 export default function Core() {
   return (
     <div className={styles.work}>
-    Hello core values
+    Hello portfolio
     </div>
   )
 }
