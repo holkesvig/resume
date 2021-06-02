@@ -28,18 +28,7 @@
       background: #fcf7f5;
     }
 
-    .coreValuesSection {
-      width: 100vw;
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      position: relative;
-      text-align: center;
-      background: #fcf7f5;
-    }
-
-    .experienceSection {
+    .skillsSection {
       width: 100vw;
       height: 100vh;
       display: flex;
@@ -50,7 +39,7 @@
       background: #f9efeb;
     }
 
-    .downloadSection {
+    .experienceSection {
       width: 100vw;
       height: 100vh;
       display: flex;
@@ -59,6 +48,17 @@
       position: relative;
       text-align: center;
       background: #f2ded6;
+    }
+
+    .workSection {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      text-align: center;
+      background: #e4bcac;
     }
   }
 
@@ -71,12 +71,14 @@
   }
 
   .footer {
-    width: 100%;
-    border-top: 1px solid #eaeaea;
+    width: 100vw;
+    height: 5vh;
+    position: fixed;
+    bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #e4bcac;
+    background-color: #deab98;
   }
 
   .title {

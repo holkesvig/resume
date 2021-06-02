@@ -16,6 +16,7 @@ export default function Layout({ children }) {
                 <div className={styles.navigation}>
                     <Button className={`${styles.navItem} ${styles.desktop}`}><Link href="#home">Hello</Link></Button>
                     <Button className={`${styles.navItem} ${styles.desktop}`}><Link href="#values">Values</Link></Button>
+                    <Button className={`${styles.navItem} ${styles.desktop}`}><Link href="#skills">Skills</Link></Button>
                     <Button className={`${styles.navItem} ${styles.desktop}`}><Link href="#experience">Experience</Link></Button>
                     <Button className={`${styles.navItem} ${styles.desktop}`}><Link href="#download">Resume PDF</Link></Button>
                     <div className={styles.mobile}>

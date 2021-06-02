@@ -12,9 +12,7 @@ export default function Index() {
         <Head>
           <link rel="icon" href="/favicon.ico" />
         </Head>
-
         <main className={styles.main}>
-
           <div className={styles.homeSection} id="home">
               <Home></Home>
           </div>
@@ -25,7 +23,7 @@ export default function Index() {
             </div>
             <div className={styles.skillsSection} id="skills">
                 <h1 className={styles.title}>
-                    Melissa Nelson Experience
+                    Melissa Nelson Skills
                 </h1>
             </div>
             <div className={styles.experienceSection} id="experience">
@@ -33,14 +31,14 @@ export default function Index() {
                     Melissa Nelson Experience
                 </h1>
             </div>
-            <div className={styles.downloadSection} id="download">
+            <div className={styles.workSection} id="work">
                 <h1 className={styles.title}>
-                    Melissa Nelson Download
+                    Melissa Nelson Work
                 </h1>
             </div>
         </main>
-
         <footer>
+          <div className={styles.footer}></div>
         </footer>
       </Layout>
 
