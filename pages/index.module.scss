@@ -16,6 +16,7 @@
       align-items: center;
       position: relative;
       bottom: 0;
+      top: 100px;
     }
 
     .coreValuesSection {
@@ -80,7 +81,8 @@
 @media only screen and (min-width: 1000px) {
   .index {
     .homeSection {
-      bottom: 72px;
+      bottom: 100px;
+      top: 0;
     }
   }
 }

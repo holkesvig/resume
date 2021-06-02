@@ -14,10 +14,10 @@ export default function Layout({ children }) {
             </Head>
             <nav className={styles.navbar}>
                 <div className={styles.navigation}>
-                    <Button className={`${styles.navItem} ${styles.desktop}`}><Link href="#home">About</Link></Button>
+                    <Button className={`${styles.navItem} ${styles.desktop}`}><Link href="#home">Hello</Link></Button>
                     <Button className={`${styles.navItem} ${styles.desktop}`}><Link href="#values">Values</Link></Button>
                     <Button className={`${styles.navItem} ${styles.desktop}`}><Link href="#experience">Experience</Link></Button>
-                    <Button className={`${styles.navItem} ${styles.desktop}`}><Link href="#download">Download</Link></Button>
+                    <Button className={`${styles.navItem} ${styles.desktop}`}><Link href="#download">Resume PDF</Link></Button>
                     <div className={styles.mobile}>
                         <NavDrawer/>
                     </div>
