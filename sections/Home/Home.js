@@ -2,7 +2,8 @@ import styles from './Home.module.scss'
 export default function Home() {
   return (
     <div className={styles.home}>
-      <div className={styles.leftContent}><img className={styles.portrait} 
+      <div className={styles.leftContent}>
+        <img className={styles.portrait} 
         src="/images/self-portrait.png" alt="A cartoonized self-portrait of Melissa Nelson using a Macbook"></img>
       </div>
       <div className={styles.rightContent}><h1>Hi, I'm Melissa.</h1>
