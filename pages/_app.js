@@ -17,6 +17,8 @@ function MyApp({ Component, pageProps }) {
           <meta
             name="Melissa Nelson's Personal Website"
             content="Melissa Nelson's Personal Website"
+            chartset="utf-8"
+            lang="en"
           />
           <link rel="icon" href="/favicon.ico" />
         </Head>

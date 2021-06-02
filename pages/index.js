@@ -7,7 +7,6 @@ import Home from '../sections/Home/Home'
 export default function Index() {
   return (
     <div className={styles.index}>
-
       <Layout>
         <Head>
           <link rel="icon" href="/favicon.ico" />
@@ -41,7 +40,6 @@ export default function Index() {
           <div className={styles.footer}></div>
         </footer>
       </Layout>
-
     </div>
   )
 }
