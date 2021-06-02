@@ -4,6 +4,7 @@ import Layout from '../components/Layout/Layout'
 
 import Home from '../sections/Home/Home'
 import Core from '../sections/Core/Core'
+import Skills from '../sections/Skills/Skills'
 import Experience from '../sections/Experience/Experience'
 
 export default function Index() {
@@ -21,9 +22,7 @@ export default function Index() {
                 <Core />
             </div>
             <div className={styles.skillsSection} id="skills">
-                <h1 className={styles.title}>
-                    Melissa Nelson Skills
-                </h1>
+                <Skills />
             </div>
             <div className={styles.experienceSection} id="experience">
                 <Experience />
