@@ -35,10 +35,9 @@ export default function Index() {
                     Melissa Nelson Work
                 </h1>
             </div>
+            <div className={styles.footer}><p>2021</p></div>
         </main>
-        <footer>
-          <div className={styles.footer}></div>
-        </footer>
+
       </Layout>
     </div>
   )
