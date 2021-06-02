@@ -14,12 +14,12 @@ export default function Layout({ children }) {
             </Head>
             <nav className={styles.navbar}>
                 <div className={styles.navigation}>
-                    <Button className={`${styles.navItem} ${styles.desktop}`}><Link href="#home">Hello</Link></Button>
-                    <Button className={`${styles.navItem} ${styles.desktop}`}><Link href="#values">Values</Link></Button>
-                    <Button className={`${styles.navItem} ${styles.desktop}`}><Link href="#skills">Skills</Link></Button>
-                    <Button className={`${styles.navItem} ${styles.desktop}`}><Link href="#experience">Experience</Link></Button>
-                    <Button className={`${styles.navItem} ${styles.desktop}`}><Link href="#work">Work</Link></Button>
-                    <Button className={`${styles.navItem} ${styles.desktop}`}><Link href="">Resume PDF</Link></Button>
+                    <Button className={`${styles.navItem} ${styles.desktop}`}><Link href="#home" replace>Hello</Link></Button>
+                    <Button className={`${styles.navItem} ${styles.desktop}`}><Link href="#values" replace>Values</Link></Button>
+                    <Button className={`${styles.navItem} ${styles.desktop}`}><Link href="#skills" replace>Skills</Link></Button>
+                    <Button className={`${styles.navItem} ${styles.desktop}`}><Link href="#experience" replace>Experience</Link></Button>
+                    <Button className={`${styles.navItem} ${styles.desktop}`}><Link href="#work" replace>Work</Link></Button>
+                    <Button className={`${styles.navItem} ${styles.desktop}`}><a href="/public/assets/melissa-nelson-resume.pdf" download>Resume PDF</a></Button>
                     <div className={styles.mobile}>
                         <NavDrawer/>
                     </div>
