@@ -18,9 +18,6 @@ export default function Home() {
             <p>Let's build teams that employ a user-first approach to engineering.</p>
         </div>
         <div className={styles.bottom}>
-          <Button className={styles.socialButton}><a href="https://linkedin.com/in/holkesvig" target="blank"><img src="http://simpleicon.com/wp-content/uploads/rocket.png" alt="Linkedin Icon" className={styles.socialIcon}/></a></Button>
-          <Button className={styles.socialButton}><a href="https://github.com/holkesvig" target="blank"><img src="http://simpleicon.com/wp-content/uploads/rocket.png" alt="Github Icon" className={styles.socialIcon}/></a></Button>
-          <Button className={styles.socialButton}><a href="https://devpost.com/Mmahan2" target="blank"><img src="http://simpleicon.com/wp-content/uploads/rocket.png" alt="Devpost Icon" className={styles.socialIcon}/></a></Button>
         </div>
       </div>
     </div>

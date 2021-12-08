@@ -2,6 +2,8 @@ import Head from 'next/head'
 import styles from './index.module.scss'
 import Layout from '../components/Layout/Layout'
 
+import Button from '@material-ui/core/Button'
+
 import Home from '../sections/Home/Home'
 import Core from '../sections/Core/Core'
 import Skills from '../sections/Skills/Skills'
@@ -31,7 +33,13 @@ export default function Index() {
             <div className={styles.workSection} id="work">
                 <Work />
             </div>
-            <div className={styles.contact}>Text</div>
+            <div className={styles.contact}>
+            <Button className={styles.socialButton}><a href="2melissamahan@gmail.com" target="blank"><img src="../assets/icons/gmail.png" alt="Email Icon" className={styles.socialIcon}/></a></Button>
+            <Button className={styles.socialButton}><a href="https://linkedin.com/in/holkesvig" target="blank"><img src="../assets/icons/linkedin.png" alt="Linkedin Icon" className={styles.socialIcon}/></a></Button>
+            <Button className={styles.socialButton}><a href="https://github.com/holkesvig" target="blank"><img src="../assets/icons/github.png" alt="Github Icon" className={styles.socialIcon}/></a></Button>
+            <Button className={styles.socialButton}><a href="https://devpost.com/Mmahan2" target="blank"><img src="../assets/icons/dev.png" alt="Devpost Icon" className={styles.socialIcon}/></a></Button>
+            <Button className={styles.socialButton}><a href="https://instagram.com/revivalplantco/" target="blank"><img src="../assets/icons/instagram.png" alt="Devpost Icon" className={styles.socialIcon}/></a></Button>
+            </div>
             <div className={styles.footer}><p>2021</p></div>
         </main>
       </Layout>
