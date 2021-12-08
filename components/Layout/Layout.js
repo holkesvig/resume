@@ -13,6 +13,7 @@ export default function Layout({ children }) {
                 <link rel="icon" href="/favicon.png" />
             </Head>
             <nav className={styles.navbar}>
+                <div className={styles.navHeader}>Melissa Nelson</div>                
                 <div className={styles.navigation}>
                     <Button className={`${styles.navItem} ${styles.desktop}`}><Link href="#home" replace>Hello</Link></Button>
                     <Button className={`${styles.navItem} ${styles.desktop}`}><Link href="#values" replace>Values</Link></Button>
