@@ -6,6 +6,11 @@
     .headline {
       display: none;
     }
+
+    .navHeader {
+      display: none;
+    }
+
     .navigation {
       flex-direction: column;
 
@@ -35,6 +40,10 @@
     .navbar {
       .headline {
         display: block;
+      }
+
+      .navHeader {
+        display: inline;
       }
 
       .navigation {

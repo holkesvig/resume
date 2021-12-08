@@ -31,9 +31,9 @@ export default function Index() {
             <div className={styles.workSection} id="work">
                 <Work />
             </div>
+            <div className={styles.contact}>Text</div>
             <div className={styles.footer}><p>2021</p></div>
         </main>
-
       </Layout>
     </div>
   )

@@ -68,18 +68,22 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
 
-  .footer {
-    width: 100vw;
-    height: 5vh;
-    position: fixed;
-    bottom: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #deab98;
-    color: white;
+    .contact {
+      display: none;
+    }
+
+    .footer {
+      width: 100vw;
+      height: 5vh;
+      position: fixed;
+      bottom: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #deab98;
+      color: white;
+    }
   }
 
   .title {
@@ -95,5 +99,22 @@
     .homeSection {
       top: -72px;
     }
+
+    .main {
+      .contact {
+        display: flex;
+      }
+    }
   }
+}
+
+.contact {
+  background-color: #deab98;
+  position: fixed;
+  border-radius: 8px;
+  width: 300px;
+  height: 50px;
+  bottom: 50px;
+  padding: 5px;
+  right: 7px;
 }
